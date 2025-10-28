@@ -36,10 +36,11 @@
   "name":"Axolotl Adventure",
   "resources":[
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"background1","path":"sprites/background1/background1.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

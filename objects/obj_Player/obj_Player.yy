@@ -26,7 +26,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"move_speed","filters":[],"listItems":[],"multiselect":false,"name":"move_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"hsp","filters":[],"listItems":[],"multiselect":false,"name":"hsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"move_speed","filters":[],"listItems":[],"multiselect":false,"name":"move_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"vsp","filters":[],"listItems":[],"multiselect":false,"name":"vsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"accel","filters":[],"listItems":[],"multiselect":false,"name":"accel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

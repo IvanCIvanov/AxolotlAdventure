@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"Sprite2",
+  "%Name":"spr_wall",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"a8071a43-2b07-41f2-8a30-5a6a0833db8f","blendMode":0,"displayName":"default","isLocked":false,"name":"a8071a43-2b07-41f2-8a30-5a6a0833db8f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite2",
+  "name":"spr_wall",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Axolotl Adventure",
-    "path":"Axolotl Adventure.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite2",
+    "%Name":"spr_wall",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite2",
+    "name":"spr_wall",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb740873-0019-41ba-93df-0af6e68b9a4d","path":"sprites/Sprite2/Sprite2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb740873-0019-41ba-93df-0af6e68b9a4d","path":"sprites/spr_wall/spr_wall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d226ebb9-969c-4191-bc53-cd26267f7202","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
