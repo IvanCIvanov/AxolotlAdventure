@@ -1,5 +1,12 @@
 #region Player Movement
 
+// SpeedBuff Activation
+if(global.speedBuff && !speedBuffCheck){
+	move_speed = 30;
+	alarm[0] = game_get_speed(gamespeed_fps) * 3;
+	speedBuffCheck = true;
+}
+
 // Get input
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
@@ -61,6 +68,16 @@ if (place_meeting(x, y + vsp, obj_wall))
 
 #endregion
 
+#region Life Loop
+
+//Restart Game if zero lives
+if(global.lives <= 0){
+	game_restart()
+}
+
+#endregion
+
 // Apply movement
 x += hsp;
 y += vsp;
+
